@@ -17,7 +17,7 @@ python3 train.py
 ## Run evaluation
 
 ```bash
-python3 evaluate.py --checkpoint checkpoints/policy_net1_ep300.pt --episodes 10
+python3 evaluate.py --checkpoint checkpoints/policy_net1_ep300.pt --html
 ```
 
 The checkpoints are saved under `checkpoints/` by default.
